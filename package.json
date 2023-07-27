@@ -1,0 +1,29 @@
+{
+  "name": "notes-app-sql",
+  "version": "1.0.0",
+  "description": "",
+
+
+  
+  "type" : "module",  
+
+
+
+  "main": "index.js",
+  "scripts": {
+    "dev": "env-cmd ./config/dev.env nodemon src/index.js",
+    "check" : "env-cmd ./config/dev.env node src/databases/db.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "env-cmd": "^8.0.2",
+    "express": "^4.18.2",
+    "mysql2": "^3.5.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

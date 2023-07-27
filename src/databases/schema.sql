@@ -1,0 +1,13 @@
+CREATE DATABASE todolist;
+USE todolist;
+
+CREATE TABLE tasks(
+    id integer PRIMARY KEY AUTO_INCREMENT,
+    task VARCHAR(255) NOT NULL,
+    completed BOOLEAN DEFAULT FALSE,
+    createdAt TIMESTAMP NOT NULL DEFAULT NOW()
+);
+
+INSERT INTO tasks(task)
+VALUES
+('CLEAN THE BED');
