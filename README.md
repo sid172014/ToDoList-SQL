@@ -2,7 +2,7 @@
 ToDoList-API as the name suggests is a To-Do-List API where the individual users can create their tasks and can also interact with the tasks to set them to completed.
 
 ## Installation
-The command below , when run into the terminal , helps the user to install all the 
+The command below , when ran into the terminal , helps the user to install all the 
 ```node
 npm install
 ```
